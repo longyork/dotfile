@@ -1,0 +1,16 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="WelcomeScreen.Configure.Import">
+      <i c="1" l="1650427298972" />
+    </e>
+    <e n="WelcomeScreen.ManageLicense">
+      <i c="10" l="1650456585742" />
+    </e>
+    <e n="WelcomeScreen.Plugins">
+      <i c="2" l="1650428348591" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.welcomeScreen.WelcomeScreenComponentFactory$3">
+      <i c="15" l="1650428389366" />
+    </e>
+  </component>
+</application>

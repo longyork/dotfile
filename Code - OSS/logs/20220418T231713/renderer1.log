@@ -1,0 +1,6 @@
+[2022-04-18 23:17:14.900] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-04-18 23:17:15.158] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-04-19 00:56:10.815] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-04-19 00:56:11.106] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-04-19 00:56:13.730] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-04-19 00:59:08.512] [renderer1] [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted

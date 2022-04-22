@@ -1,0 +1,26 @@
+[2022-04-21 17:23:06.299] [exthost] [info] Extension host with pid 9503 started
+[2022-04-21 17:23:06.323] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-04-21 17:23:06.326] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-04-21 17:23:06.328] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-04-21 17:23:06.339] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-04-21 17:23:06.353] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-04-21 17:23:06.373] [exthost] [info] Eager extensions activated
+[2022-04-21 17:23:06.386] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-04-21 17:23:06.393] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-04-21 17:23:44.565] [exthost] [info] extension host terminating: renderer closed the socket
+[2022-04-21 17:23:44.568] [exthost] [info] Extension host with pid 9503 exiting with code 0
+[2022-04-21 17:23:45.996] [exthost] [info] Extension host with pid 9588 started
+[2022-04-21 17:23:45.996] [exthost] [info] Skipping acquiring lock for /home/york/.config/Code - OSS/User/workspaceStorage/3da1584951d7d9f91015167ec066176b.
+[2022-04-21 17:23:46.082] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-04-21 17:23:46.084] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-04-21 17:23:46.086] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-04-21 17:23:46.098] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-04-21 17:23:46.112] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-04-21 17:23:46.139] [exthost] [info] Eager extensions activated
+[2022-04-21 17:23:46.166] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-04-21 17:23:46.169] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-04-21 17:23:51.791] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+[2022-04-21 17:23:51.796] [exthost] [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+[2022-04-21 17:23:51.927] [exthost] [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+[2022-04-21 23:53:14.901] [exthost] [info] extension host terminating: renderer closed the socket
+[2022-04-21 23:53:14.906] [exthost] [info] Extension host with pid 9588 exiting with code 0
