@@ -1,0 +1,15 @@
+[2022-04-22 09:37:02.746] [exthost] [info] Extension host with pid 3430 started
+[2022-04-22 09:37:02.746] [exthost] [info] Skipping acquiring lock for /home/york/.config/Code - OSS/User/workspaceStorage/3da1584951d7d9f91015167ec066176b.
+[2022-04-22 09:37:02.804] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+[2022-04-22 09:37:02.808] [exthost] [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+[2022-04-22 09:37:02.826] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-04-22 09:37:02.828] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-04-22 09:37:02.831] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-04-22 09:37:02.997] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-04-22 09:37:03.009] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-04-22 09:37:03.051] [exthost] [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+[2022-04-22 09:37:03.076] [exthost] [info] Eager extensions activated
+[2022-04-22 09:37:03.115] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-04-22 09:37:03.122] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-04-22 18:29:29.098] [exthost] [info] extension host terminating: renderer closed the socket
+[2022-04-22 18:29:29.104] [exthost] [info] Extension host with pid 3430 exiting with code 0

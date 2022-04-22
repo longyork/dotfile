@@ -1,0 +1,22 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="About">
+      <i c="1" l="1650592949848" />
+    </e>
+    <e n="RiderOpenSolution">
+      <i c="1" l="1650592984508" />
+    </e>
+    <e n="WelcomeScreen.Configure.Import">
+      <i c="1" l="1650427298972" />
+    </e>
+    <e n="WelcomeScreen.ManageLicense">
+      <i c="13" l="1650592931899" />
+    </e>
+    <e n="WelcomeScreen.Plugins">
+      <i c="2" l="1650428348591" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.welcomeScreen.WelcomeScreenComponentFactory$3">
+      <i c="21" l="1650592947468" />
+    </e>
+  </component>
+</application>

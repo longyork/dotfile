@@ -1,0 +1,8 @@
+[Added Associations]
+application/vnd.ms-publisher=org.xfce.mousepad.desktop;org.xfce.mousepad-settings.desktop;
+text/plain=org.xfce.mousepad.desktop;
+image/gif=firefox.desktop;
+application/x-shellscript=org.xfce.mousepad.desktop;
+
+[Default Applications]
+x-scheme-handler/jetbrains=jetbrains-toolbox.desktop
