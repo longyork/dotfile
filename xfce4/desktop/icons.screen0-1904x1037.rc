@@ -1,12 +1,20 @@
 [xfdesktop-version-4.10.3+-rcfile_format]
 4.10.3+=true
 
+[0CAF07220CAF0722]
+row=5
+col=0
+
 [1A52897152895305]
 row=1
 col=0
 
 [048603F48603E4D0]
 row=0
+col=0
+
+[E05A636F5A634200]
+row=6
 col=0
 
 [Trash]

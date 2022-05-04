@@ -1,8 +1,13 @@
 [Added Associations]
 application/vnd.ms-publisher=org.xfce.mousepad.desktop;org.xfce.mousepad-settings.desktop;
 text/plain=org.xfce.mousepad.desktop;
-image/gif=firefox.desktop;
+image/gif=chromium.desktop;firefox.desktop;
 application/x-shellscript=org.xfce.mousepad.desktop;
+application/pdf=wps-office-pdf.desktop;firefox.desktop;
+video/mp4=vlc.desktop;
+image/png=feh.desktop;gimp.desktop;
+video/x-msvideo=vlc.desktop;
 
 [Default Applications]
 x-scheme-handler/jetbrains=jetbrains-toolbox.desktop
+x-scheme-handler/baiduyunguanjia=baidunetdisk.desktop
