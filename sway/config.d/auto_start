@@ -1,0 +1,7 @@
+exec fcitx5 -d
+
+exec_always nm-applet --indicator
+
+exec /usr/lib/mate-polkit/polkit-mate-authentication-agent-1 
+
+exec wl-paste --watch cliphist store
