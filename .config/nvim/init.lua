@@ -22,11 +22,11 @@ opt.softtabstop = 4    -- 编辑时按 Tab 插入 4 个空格
 opt.smartindent = true -- 自动继承上下文缩进
 
 -- 显示
-opt.wrap = false
+-- opt.wrap = false
 opt.termguicolors = true -- 24 位真彩色
 opt.signcolumn = "yes"   -- 固定符号列
 
 -- 响应速度
-opt.updatetime = 300  -- 300 ms
+-- opt.updatetime = 300  -- 300 ms
 
 
