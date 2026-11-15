@@ -1,18 +1,29 @@
-btop/
-fcitx/
-gtk-3.0/
-ly/
-mpv/
-pavucontrol.ini
-Thunar/
-user*
-xfce4/
-dconf/
-fcitx5/
-fish/
-go/
-ibus/
-mozilla/
-pulse/
-systemd/
-yay/
+# 临时文件
+*.log
+# 密钥、凭证
+*.pem
+*.key
+*.secret
+*.env
+*id_rsa
+*id_rsa.pub
+# 缓存
+.cache/
+.bash_history*
+.local/
+.vim/
+.viminfo
+
+*/.git/
+*/.gitignore
+.gitconfig
+
+.config/
+.ssh/
+.gnupg/
+
+Documents/
+Downloads/
+Pictures/
+Projects/
+
