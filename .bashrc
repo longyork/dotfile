@@ -22,3 +22,22 @@ eval "$(fzf --bash)"
 export EDITOR=nvim
 
 export PATH="$PATH:$HOME/.local/bin"
+
+# cliphist 批量删除（fzf多选预览）
+cliphist-rm() {
+    cliphist list | fzf -m \
+        --preview 'cliphist-preview.sh {}' \
+        --preview-window right:60%:wrap \
+    | cliphist delete
+}
+
+cliphist-cp() {
+    cliphist list | fzf \
+        --preview 'cliphist-preview.sh {}' \
+        --preview-window right:60%:wrap \
+    | cliphist decode \
+    | wl-copy
+}
+
+
+
