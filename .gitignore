@@ -13,12 +13,14 @@
 .local/
 .vim/
 .viminfo
+.lesshst
 
+.dotfiles/
 */.git/
 */.gitignore
 .gitconfig
 
-.config/
+.config/mozilla
 .ssh/
 .gnupg/
 
