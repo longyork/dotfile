@@ -10,7 +10,8 @@
 # 缓存
 .cache/
 .bash_history*
-.local/
+.local/share/
+.local/state/
 .vim/
 .viminfo
 .lesshst
@@ -21,6 +22,8 @@
 .gitconfig
 
 .config/mozilla
+.config/git/
+.config/environment.d/
 .ssh/
 .gnupg/
 
