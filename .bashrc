@@ -49,4 +49,13 @@ gshow() {
   [[ -n "$hash" ]] && git show "$hash"
 }
 
+dotfiles-gshow() {
+  local hash
+  hash=$(dotfiles log --oneline --color=always |
+    fzf --ansi --reverse --height 60% \
+    --preview 'git --git-dir="$HOME/.dotfiles/" --work-tree="$HOME" show --color=always {1} | head -250' \
+    --preview-window=right:55% | awk '{print $1}')
+  [[ -z "$hash" ]] && return 0
+  [[ -n "$hash" ]] && git show "$hash"
+}
 
