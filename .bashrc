@@ -39,5 +39,14 @@ cliphist-cp() {
     | wl-copy
 }
 
+gshow() {
+  local hash
+  hash=$(git log --oneline --color=always |
+    fzf --ansi --reverse --height 60% \
+    --preview 'git show --color=always {1} | head -250' \
+    --preview-window=right:55% | awk '{print $1}')
+  [[ -z "$hash" ]] && return 0
+  [[ -n "$hash" ]] && git show "$hash"
+}
 
 
