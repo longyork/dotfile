@@ -32,11 +32,11 @@ cliphist-rm() {
 }
 
 cliphist-cp() {
-    cliphist list | fzf \
+    local sel
+    sel=$(cliphist list | fzf \
         --preview 'cliphist-preview.sh {}' \
-        --preview-window right:60%:wrap \
-    | cliphist decode \
-    | wl-copy
+        --preview-window right:60%:wrap)
+    [[ -n "$sel" ]] && cliphist decode <<< "$sel" | wl-copy
 }
 
 gshow() {
