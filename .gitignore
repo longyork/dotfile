@@ -1,5 +1,6 @@
 # 临时文件
 *.log
+
 # 密钥、凭证
 *.pem
 *.key
@@ -7,28 +8,54 @@
 *.env
 *id_rsa
 *id_rsa.pub
+
 # 缓存
+.aspnet/
 .cache/
-.bash_history*
+.cc-safety-net/
+.cargo/
+.dotnet/
+.docker/
+.local/lib/
 .local/share/
 .local/state/
+.npm/
+.nuget/
+.pi/
+.pki/
+.templateengine/
 .vim/
-.viminfo
-.lesshst
+.vscode-server/
 
-.dotfiles/
+# git 配置
 */.git/
 */.gitignore
-.gitconfig
 
-.config/mozilla
-.config/git/
-.config/environment.d/
-.ssh/
-.gnupg/
+# 裸仓库
+.dotfiles/
 
+# 系统、用户目录
 Documents/
 Downloads/
+Musics/
 Pictures/
+Public/
 Projects/
+
+# 备份文件
+dotfiles_backup/
+
+# 其他文件
+.config/environment.d/
+.config/git/
+.config/mozilla/
+.local/bin/pi
+.gnupg/
+.ssh/
+.*_history*
+.ICEauthority
+.gitconfig
+.lesshst
+.viminfo
+.xinitrc
 

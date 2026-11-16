@@ -12,7 +12,7 @@ opt.number = true
 -- opt.relativenumber = true
 
 -- 剪切板
-opt.clipboard = "unnamedplus"
+-- opt.clipboard = "unnamedplus"
 
 -- 缩进
 opt.expandtab = true   -- Tab 键输入空格
