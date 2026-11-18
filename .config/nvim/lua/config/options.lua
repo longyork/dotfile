@@ -2,6 +2,9 @@
 vim.g.mapleader = " "
 vim.g.maplocalleader = "\\"
 
+vim.g.netrw_keepdir = 0
+vim.g.netrw_browse_split = 0
+
 -- LazyVim auto format
 -- vim.g.autoformat = true
 

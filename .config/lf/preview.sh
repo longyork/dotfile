@@ -1,26 +1,37 @@
 #!/bin/sh
-file="$1"
-w="$2"
-h="$3"
+mime=$(file --mime-type -Lb -- "$1")
 
-mime=$(file --mime-type -Lb "$file")
+[[ -d $HOME/.cache/lf ]] || mkdir -p "$HOME/.cache/lf"
+
+show_img(){
+    #if [[ -n $FZF_LEVEL || -n $NVIM ]]; then
+        /bin/chafa -f sixel \
+            -s "$2x$3" \
+            --animate off \
+            --polite on \
+            -t 1 \
+            --bg '#111111' \
+            $1
+    #fi
+}
 
 case "$mime" in
-    image/*)
-        # 优先尝试 sixel，失败回退通用字符模式
-        chafa -f sixel -s "${w}x${h}" --align center "$file" 2>/dev/null ||
-        chafa -s "${w}x${h}" --align center "$file"
+    image/*xcf|image/heic|image/x-xpixmap)
+                CACHE="$HOME/.cache/lf/$(stat --printf '%s%n%Y' "$(readlink -f "$1")" \
+                               | xxh3sum | cut -d' ' -f1)"
+        [ -f "${CACHE}.jpg" ] || convert "$1" -flatten \
+                                              -quality 50 "${CACHE}.jpg"
+        show_img "${CACHE}.jpg" "$2" "$3"
         ;;
-    # PDF 预览（需要 poppler）
-    #application/pdf)
-    #    pdftotext -f 1 -l 10 "$file" - 2>/dev/null
-    #    ;;
+    image/*)
+        show_img "$1" "$2" "$3"
+        ;;
     # 文本用 bat 高亮
     text/*|application/json)
-        bat --color=always --style=plain "$file" 2>/dev/null
+        bat --color=always --style=plain "$1"
         ;;
     *)
-        file -- "$file"
+        file -- "$1"
         ;;
 esac
 
