@@ -47,10 +47,11 @@ dotfiles_backup/
 
 # 其他文件
 .config/btop/
-.config/nvim/lazy-lock.json
 .config/environment.d/
 .config/git/
 .config/mozilla/
+.config/nvim/lazy-lock.json
+.config/sway/config.d/output.conf
 .local/bin/pi
 .gnupg/
 .ssh/

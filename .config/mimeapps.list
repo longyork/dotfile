@@ -3,3 +3,6 @@ application/pdf=org.pwmt.zathura-pdf-mupdf.desktop;
 
 [Default Applications]
 application/pdf=org.pwmt.zathura.desktop
+image/jpg=swayimg.desktop
+image/jpeg=swayimg.desktop
+image/png=swayimg.desktop

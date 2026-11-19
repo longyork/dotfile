@@ -1,0 +1,6 @@
+# enable copy to clipboard
+set selection-clipboard clipboard
+
+# set page-mode equal_width
+
+set guioptions ""
