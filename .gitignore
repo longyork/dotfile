@@ -12,10 +12,10 @@
 # 缓存
 .aspnet/
 .cache/
-.cc-safety-net/
 .cargo/
-.dotnet/
+.cc-safety-net/
 .docker/
+.dotnet/
 .local/lib/
 .local/share/
 .local/state/
@@ -26,6 +26,7 @@
 .templateengine/
 .vim/
 .vscode-server/
+.wget-hsts
 
 # git 配置
 */.git/

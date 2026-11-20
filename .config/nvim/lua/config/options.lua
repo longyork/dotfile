@@ -2,8 +2,10 @@
 vim.g.mapleader = " "
 vim.g.maplocalleader = "\\"
 
-vim.g.netrw_keepdir = 0
-vim.g.netrw_browse_split = 0
+vim.g.netrw_winsize = 25
+vim.g.netrw_banner = 0
+vim.g.netrw_liststyle = 3  -- 树形视图
+-- vim.g.netrw_chgwin = -1
 
 -- LazyVim auto format
 -- vim.g.autoformat = true
@@ -57,7 +59,7 @@ local opt = vim.opt
 opt.autowrite = true -- Enable auto write
 -- only set clipboard if not in ssh, to make sure the OSC 52
 -- integration works automatically.
--- opt.clipboard = vim.env.SSH_CONNECTION and "" or "unnamedplus" -- Sync with system clipboard
+opt.clipboard = vim.env.SSH_CONNECTION and "" or "unnamedplus" -- Sync with system clipboard
 -- opt.completeopt = "menu,menuone,noselect"
 -- opt.conceallevel = 2 -- Hide * markup for bold and italic, but not markers with substitutions
 -- opt.confirm = true -- Confirm to save changes before exiting modified buffer

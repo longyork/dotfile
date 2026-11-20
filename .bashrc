@@ -6,7 +6,7 @@
 [[ $- != *i* ]] && return
 
 alias ls='ls --color=auto'
-alias ll='ls -la --color=auto'
+alias ll='ls -lah --color=auto'
 alias grep='grep --color=auto'
 
 # 裸仓库别名
