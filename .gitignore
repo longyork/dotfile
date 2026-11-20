@@ -52,6 +52,7 @@ dotfiles_backup/
 .config/mozilla/
 .config/nvim/lazy-lock.json
 .config/sway/config.d/output.conf
+.config/tmux/plugins/
 .local/bin/pi
 .gnupg/
 .ssh/
