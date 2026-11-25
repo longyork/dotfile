@@ -21,7 +21,7 @@ eval "$(fzf --bash)"
 # 全局默认的编辑器
 export EDITOR=nvim
 
-export PATH="$PATH:$HOME/.local/bin"
+export PATH="$PATH:$HOME/.local/bin:$HOME/.dotnet/tools"
 
 # cliphist 批量删除（fzf多选预览）
 cliphist-rm() {

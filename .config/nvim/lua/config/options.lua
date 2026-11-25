@@ -2,7 +2,7 @@
 vim.g.mapleader = " "
 vim.g.maplocalleader = "\\"
 
-vim.g.netrw_winsize = 25
+vim.g.netrw_winsize = 20
 vim.g.netrw_banner = 0
 vim.g.netrw_liststyle = 3  -- 树形视图
 -- vim.g.netrw_chgwin = -1
@@ -59,8 +59,7 @@ local opt = vim.opt
 opt.autowrite = true -- Enable auto write
 -- only set clipboard if not in ssh, to make sure the OSC 52
 -- integration works automatically.
--- opt.clipboard = vim.env.SSH_CONNECTION and "" or "unnamedplus" -- Sync with system clipboard
-opt.clipboard = "unnamedplus" -- Sync with system clipboard
+opt.clipboard = vim.env.SSH_CONNECTION and "" or "unnamedplus" -- Sync with system clipboard
 -- opt.completeopt = "menu,menuone,noselect"
 -- opt.conceallevel = 2 -- Hide * markup for bold and italic, but not markers with substitutions
 -- opt.confirm = true -- Confirm to save changes before exiting modified buffer
@@ -104,7 +103,7 @@ opt.signcolumn = "yes" -- Always show the signcolumn, otherwise it would shift t
 -- opt.smartcase = true -- Don't ignore case with capitals
 -- opt.smartindent = true -- Insert indents automatically
 -- opt.smoothscroll = true
--- opt.spelllang = { "en" }
+opt.spelllang = { "en" }
 opt.splitbelow = true -- Put new windows below current
 -- opt.splitkeep = "screen"
 opt.splitright = true -- Put new windows right of current
@@ -118,7 +117,7 @@ opt.termguicolors = true -- True color support
 -- opt.virtualedit = "block" -- Allow cursor to move where there is no text in visual block mode
 -- opt.wildmode = "longest:full,full" -- Command-line completion mode
 -- opt.winminwidth = 5 -- Minimum window width
--- opt.wrap = false -- Disable line wrap
+opt.wrap = false -- Disable line wrap
 
 -- Fix markdown indentation settings
 -- vim.g.markdown_recommended_style = 0

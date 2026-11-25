@@ -25,6 +25,8 @@
 .pki/
 .templateengine/
 .vim/
+.vscode-oss-shared/
+.vscode-oss/
 .vscode-server/
 .wget-hsts
 
@@ -48,12 +50,14 @@ dotfiles_backup/
 
 # 其他文件
 .config/btop/
+.config/Code - OSS/
 .config/environment.d/
 .config/git/
 .config/mozilla/
 .config/nvim/lazy-lock.json
 .config/sway/config.d/output.conf
 .config/tmux/plugins/
+.copilot/
 .local/bin/pi
 .gnupg/
 .ssh/
